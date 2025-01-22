@@ -10,6 +10,8 @@ from langchain_core.messages import HumanMessage
 #test for fun
 from langchain.prompts import ChatPromptTemplate
 
+
+import requests
 #hw1
 from langchain.output_parsers import (ResponseSchema, StructuredOutputParser)
 
