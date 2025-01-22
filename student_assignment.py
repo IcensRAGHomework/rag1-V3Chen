@@ -401,7 +401,7 @@ def generate_hw02(question):
     prompt_str = question_to_prompt(question)
     response = agent_executor.invoke({"input": prompt_str}).get('output')
     print("************************** response ****************************")
-    print response
+    print(response)
     return response
     
 def generate_hw03(question2, question3):
